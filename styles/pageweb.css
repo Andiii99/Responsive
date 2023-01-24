@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+ 
+ }
+ header{
+     display: none;
+ }
+ h1{
+     text-align: center;
+     padding: 50px;
+     background-color: rgb(73, 17, 17);
+     color: white;
+ } 
+ .colone p{
+     background-color: yellow;
+     border: 2px solid blue;
+     width: 100%;
+     padding: 5px;
+     text-align: center;
+    
+     display: inline-block;
+ }
+ .colone{
+     text-align: center;
+ }
+ 
+ 
+ footer{
+     text-align: center;
+     background-color:rgb(73, 17, 17);
+     color: white;
+     padding: 83px;
+     position: fixed;
+     bottom: 0;
+ }
+ @media screen {
+     footer{
+        display: none;
+       
+     }
+ }
+ @media (min-width:800px){
+     header{
+         display: block;
+     }
+ }
+ @media  (min-width:640px){
+     .colone p{
+         display: inline-block;
+         width: 30%;
+     }
+ }
+     
+ 
+ 
